@@ -30,7 +30,7 @@ ITEMS = {
     "8227854": "원장님 미정",
 }
 
-CHECK_EVERY_MINUTES = 5   # 확인 간격(분). 너무 줄이면 차단될 수 있어요. 3분 이상 권장
+CHECK_EVERY_MINUTES = 3   # 확인 간격(분). 너무 줄이면 차단될 수 있어요. 3분 이상 권장
 DAYS_AHEAD = 75           # 오늘부터 며칠 뒤까지 확인할지
 WATCH_NOTICE = True       # 예약 공지(다음 오픈 일정) 변경 + 오픈 전 미리 알림
 GITHUB_RUN_MINUTES = 25   # GitHub에서 한 번 실행될 때 몇 분 동안 확인할지
